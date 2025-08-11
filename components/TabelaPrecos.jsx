@@ -16,7 +16,7 @@ const TabelaPrecos = ({ produto }) => {
         <tbody>
           <tr>
             <td>{produto.nome}</td>
-            <td>R$ {produto.preco.toFixed(2)}</td>
+            <td id='preco'>R$ {produto.preco.toFixed(2)}</td>
           </tr>
         </tbody>
       </table>

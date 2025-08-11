@@ -29,7 +29,7 @@ const TabelaBoardGames = () => {
             <tbody>
               <tr>
                 <td>{selecionado.nome}</td>
-                <td>{selecionado.preco.toFixed(2)}</td>
+                <td id='preco'>{selecionado.preco.toFixed(2)}</td>
               </tr>
             </tbody>
           </table>

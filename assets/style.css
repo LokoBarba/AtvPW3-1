@@ -58,6 +58,16 @@ body {
   td {
     color: #333;
   }
+
+  .preco{
+    display: block;
+    color:rgb(55, 246, 246)
+  }
+
+  img{
+    width: 100%;
+    height: 500px;
+  }
   
   @media (max-width: 600px) {
     div {
