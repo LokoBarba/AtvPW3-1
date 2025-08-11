@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import '../assets/style.css';
-import Produtos from '../components/Produtos';
+import Cabecalho from '../components/Cabecalho';
 import TabelaBoardGames from '../components/TabelaBoardGames';
+import Footer from '../components/Footer'
 import './App.css'
 
 function App() {
@@ -10,13 +11,13 @@ function App() {
   return (
     <>
       <div>
-      <h1>Gestão de Produtos</h1>
-      <Produtos />
+      <Cabecalho />
     </div>
     
     <div style={{ padding: '20px' }}>
       <h1>Catálogo de Board Games</h1>
       <TabelaBoardGames />
+      <Footer />
     </div>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
